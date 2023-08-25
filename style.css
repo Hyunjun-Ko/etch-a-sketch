@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    aspect-ratio: 1;
+    width: auto; /* makes the container same size as grid*/
+}
+
+.grid {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
