@@ -1,24 +1,27 @@
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
+
 h1 {
-    text-align: center;
+  text-align: center;
 }
+
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
+
 .gridContainer {
-    display: grid;
-    grid-template-columns: repeat(16, 1fr); /*default value of 16x16 grid*/
-    grid-template-rows: repeat(16, 1fr);
-    aspect-ratio: 1; /*making it a square*/
-    width: 960px; /*fixed width and height of the container*/
-    height: 960px; /*fixed width and height of the container*/
-    border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr); /*default value of 16x16 grid*/
+  grid-template-rows: repeat(16, 1fr);
+  aspect-ratio: 1; /*making it a square*/
+  width: 960px; /*fixed width and height of the container*/
+  height: 960px; /*fixed width and height of the container*/
+  border: 1px solid black;
 }
 
 .grid {
-    padding: 20px; /*just a default value padding which is size of a grid changes with respect to the container*/
-    background-color: white;
+  padding: 20px; /*just a default value padding which is size of a grid changes with respect to the container*/
+  background-color: white;
 }
